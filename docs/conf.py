@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'web'
+project = 'my_page3'
 copyright = '2023, sisanda'
 author = 'sisanda'
-release = '06.09.30'
+release = '06.09.23'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -19,6 +19,7 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+root_doc = 'my_web'
 
 
 # -- Options for HTML output -------------------------------------------------
