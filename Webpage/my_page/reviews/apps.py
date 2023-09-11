@@ -13,7 +13,5 @@ class ReviewsConfig(AppConfig):
             By default, it is set to 'django.db.models.BigAutoField'.
         name (str): The name of the Django app, which should match the app's directory name.
     """
-
-
-default_auto_field = 'django.db.models.BigAutoField'
-name = 'reviews'
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'reviews'
