@@ -1,10 +1,21 @@
 from django.shortcuts import render
 from .models import Reviews
-# Create your views here.
 
-# definig function header to display the student reviews
 def header(request):
-    object_list = Reviews.object.all()
+    """
+    Render a webpage displaying student reviews.
 
-    return render(request, "reviews/review.html", {"reviews":object_list})
+    This view function renders a webpage that displays student reviews stored in the database.
+    It fetches a list of review objects from the 'Reviews' model and passes them to a template
+    for rendering.
+
+    Parameters:
+        request (HttpRequest): The HTTP request object.
+
+    Returns:
+        HttpResponse: A rendered HTML response displaying student reviews.
+     """
+    object_list = Reviews.objects.all()
+
+    return render(request, "reviews/review.html", {"reviews": object_list})
 
