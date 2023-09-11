@@ -1,3 +1,4 @@
+
 """
 Django settings for my_page project.
 
@@ -32,7 +33,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'my_page'
     'my_sites',
     'user',
     'reviews',
