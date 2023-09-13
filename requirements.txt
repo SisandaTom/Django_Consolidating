@@ -25,7 +25,7 @@ preshed==3.0.8
 pycodestyle==2.11.0
 pydantic==2.3.0
 pydantic_core==2.6.3
-Pygments @ file:///private/tmp/pygments-20230806-6212-1f05eiq/Pygments-2.16.1
+Pygments==2.16.1
 PyQt3D==5.15.6
 PyQt5==5.15.9
 PyQt5-sip==12.12.1
