@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.8
+FROM python:3.9
 
 # Set environment variables for Python to run in unbuffered mode
 ENV PYTHONUNBUFFERED 1
